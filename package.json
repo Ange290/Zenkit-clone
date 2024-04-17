@@ -4,10 +4,11 @@
   "description": "Zenkit Clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev":"nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": "UWIZERA Ange",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
