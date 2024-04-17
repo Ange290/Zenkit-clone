@@ -2,9 +2,10 @@
   "name": "zenkit-clon",
   "version": "1.0.0",
   "description": "Zenkit Clone",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type":"module",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "dev":"nodemon"
   },
   "keywords": [],
